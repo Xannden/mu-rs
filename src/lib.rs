@@ -7,6 +7,7 @@
 //! In the simplest form you can get series info like this
 //!
 //! ```no_run
+//! # use mu_rs::{MuClient, SeriesId};
 //! let client = MuClient::new();
 //! let series = client.series(SeriesId(15));
 //! ```
@@ -15,6 +16,10 @@
 
 mod author;
 mod client;
+
+
+
+
 mod group;
 mod publisher;
 mod series;

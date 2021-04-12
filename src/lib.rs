@@ -17,9 +17,6 @@
 mod author;
 mod client;
 
-
-
-
 mod group;
 mod publisher;
 mod series;
